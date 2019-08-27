@@ -1,0 +1,24 @@
+@import
+  "abstracts/variables",
+  "abstracts/mixins",
+  "abstracts/functions";
+
+@import
+  "../fonts/fontawesome-free-5.10.2-web/scss/fontawesome.scss",
+  "../fonts/fontawesome-free-5.10.2-web/scss/brands.scss",
+  "../fonts/fontawesome-free-5.10.2-web/scss/regular.scss",
+  "../vendors/bootstrap-4.3.1/scss/bootstrap.scss";
+
+@import
+  "base/fonts",
+  "base/global";
+
+@import 
+  "layouts/footer";
+
+@import
+  "vendors/animate",
+  "vendors/slick";
+
+@import
+  "partials/social-icon";

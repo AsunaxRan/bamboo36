@@ -1,0 +1,57 @@
+.social-icon {
+  display: inline-block;
+  width: 36px;
+  height: 36px;
+  line-height: 36px;
+  text-align: center;
+  border: 1px solid transparent;
+  border-radius: 50%;
+  margin-right: 4px;
+  background-color: transparent;
+  transition: all 0.3s ease;
+
+  &--twitter {
+    color: #4EA6EA;
+    border-color: #4EA6EA;
+  }
+  &--facebook {
+    color: #3A559F;
+    border-color: #3A559F;
+  }
+  &--youtube {
+    color: #FF0000;
+    border-color: #FF0000;
+  }
+  &--pinterest {
+    color: #E6001A;
+    border-color: #E6001A;
+  }
+  &--linkedin {
+    color: #0274B3;
+    border-color: #0274B3;
+  }
+
+  &:hover {
+    color: $white;
+
+    &.social-icon--twitter {
+      background-color: #4EA6EA;
+    }
+
+    &.social-icon--facebook {
+      background-color: #3A559F;
+    }
+
+    &.social-icon--youtube {
+      background-color: #FF0000;
+    }
+
+    &.social-icon--pinterest {
+      background-color: #E6001A;
+    }
+
+    &.social-icon--linkedin {
+      background-color: #0274B3;
+    }
+  }
+}

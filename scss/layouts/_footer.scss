@@ -1,0 +1,19 @@
+#footer {
+  .footer-link-title {
+    position: relative;
+    display: inline-block;
+    padding-bottom: 5px;
+    margin-bottom: 5px;
+
+    &::after {
+      content: '';
+      display: inline-block;
+      width: 30px;
+      height: 1px;
+      background-color: $black;
+      position: absolute;
+      left: 0;
+      bottom: 0;
+    }
+  }
+}
