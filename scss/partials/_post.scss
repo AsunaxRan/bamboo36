@@ -1,0 +1,25 @@
+.post {
+  color: $cacbon;
+  transition: 0.3s color ease;
+  
+  &__thumb {
+    position: relative;
+    padding-top: 75%;
+    overflow: hidden;
+    border: 5px ridge $wood;
+
+    img {
+      position: absolute;
+      top: 0;
+      left: 0;
+      transition: 0.3s transform ease;
+    }
+  }
+
+  &:hover {
+    color: $red;
+    img {
+      transform: scale(1.15);
+    }
+  }
+}

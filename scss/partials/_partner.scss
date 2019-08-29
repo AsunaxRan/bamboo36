@@ -1,0 +1,14 @@
+.partner {
+  width: 185px;
+  height: 106px;
+  position: relative;
+  background-color: $white;
+  border: 1px solid $gray-300;
+  margin-right: 30px;
+
+  img {
+    position: absolute;
+    top: 0;
+    left: 0;
+  }
+}

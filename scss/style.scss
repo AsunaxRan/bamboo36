@@ -7,11 +7,13 @@
   "../fonts/fontawesome-free-5.10.2-web/scss/fontawesome.scss",
   "../fonts/fontawesome-free-5.10.2-web/scss/brands.scss",
   "../fonts/fontawesome-free-5.10.2-web/scss/regular.scss",
+  "../fonts/fontawesome-free-5.10.2-web/scss/solid.scss",
   "../vendors/bootstrap-4.3.1/scss/bootstrap.scss";
 
 @import
   "base/fonts",
-  "base/global";
+  "base/global",
+  "base/image";
 
 @import 
   "layouts/footer";
@@ -21,4 +23,8 @@
   "vendors/slick";
 
 @import
-  "partials/social-icon";
+  "partials/social-icon",
+  "partials/post",
+  "partials/awesome-item",
+  "partials/partner",
+  "partials/slider";

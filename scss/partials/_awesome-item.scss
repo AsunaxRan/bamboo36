@@ -1,0 +1,21 @@
+.awesome-item {
+  border-radius: 8px;
+  padding: 10px;
+  margin-bottom: 20px;
+  &:last-of-type {
+    margin-bottom: 0;
+  }
+
+  @include clearfix;
+
+  img {
+    transition: 0.6s transform ease;
+    &:hover {
+      transform: rotate(360deg);
+    }
+  }
+
+  &__content {
+    padding-left: 90px;
+  }
+}
