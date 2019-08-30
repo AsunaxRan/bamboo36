@@ -10,14 +10,101 @@
   <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
-  <div class="wrapper">
-    <header id="header"></header>
-
-    <section id="hero">
+  <div class="wrapper" style="max-width: 100%; overflow: hidden;">
+    <header id="header" class="py-2">
       <div class="container">
-        <div class="slider-hero">
+        <div class="d-flex">
+          <a href="#" class="logo">Brand</a>
+          <div class="contact d-none d-lg-inline-flex ml-auto mr-auto">
+            <div class="contact__item ml-5">
+              <img class="float-left" src="imgs/share/icontop1.png" alt="icon">
+              <div class="contact__item__info">
+                <span class="small">Hotline:</span>
+                <span class="d-block text-danger font-weight-bold">0251 6 595 278</span>
+              </div> 
+            </div>
+            <div class="contact__item ml-5">
+              <img class="float-left" src="imgs/share/icontop1.png" alt="icon">
+              <div class="contact__item__info">
+                <span class="small">Hotline:</span>
+                <span class="d-block text-danger font-weight-bold">0933 390 368</span>
+              </div>
+            </div>
+            <div class="contact__item ml-5">
+              <img class="float-left" src="imgs/share/icontop2.png" alt="icon">
+              <div class="contact__item__info">
+                <span class="small">Email:</span>
+                <span class="d-block text-danger font-weight-bold">yp@bamboo36.net</span>
+              </div>
+            </div>
+          </div>
+          <form action="#" class="search ml-auto align-self-center">
+            <input type="text" placeholder="Tìm kiếm...">
+            <button type="submit">
+              <i class="fas fa-search"></i>
+            </button>
+          </form>
+        </div>
+      </div>
+    </header>
+
+    <div class="navbar-holder bg-success">
+      <div class="container">
+        <nav class="navbar navbar-expand-lg navbar-light bg-success">
+          <button class="navbar-toggler ml-auto" type="button" data-toggle="collapse" data-target="#navbarSupportedContent">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+    
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav ml-auto">
+              <li class="nav-item active">
+                <a class="nav-link" href="#">TRANG CHỦ</a>
+              </li>
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" data-toggle="dropdown">
+                  LĨNH VỰC KINH DOANH
+                </a>
+                <div class="dropdown-menu">
+                  <a class="dropdown-item" href="#">SẢN XUẤT BAO BÌ JUMBO & CONTAINER</a>
+                  <a class="dropdown-item" href="#">SẢN XUẤT NGUYÊN LIỆU NHỰA</a>
+                  <a class="dropdown-item" href="#">SẢN XUẤT BAO PP DỆT IN FLECXO</a>
+                </div>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">DỰ ÁN</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">GIẢI PHÁP</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">THÔNG SỐ KỸ THUẬT</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">LIÊN HỆ</a>
+              </li>
+            </ul>
+          </div>
+        </nav>
+      </div>
+    </div>
+
+    <section id="hero" class="py-4">
+      <div class="container">
+        <div class="slider slider-hero">
           <div class="hero-item">
-            <img src="" alt="hero" class="img-fit">
+            <img src="imgs/banners/banner-1.png" alt="hero" class="img-fit">
+          </div>
+          <div class="hero-item">
+            <img src="imgs/banners/banner-2.png" alt="hero" class="img-fit">
+          </div>
+          <div class="hero-item">
+            <img src="imgs/banners/banner-3.png" alt="hero" class="img-fit">
+          </div>
+          <div class="hero-item">
+            <img src="imgs/banners/banner-4.png" alt="hero" class="img-fit">
+          </div>
+          <div class="hero-item">
+            <img src="imgs/banners/banner-5.png" alt="hero" class="img-fit">
           </div>
         </div>
       </div>
@@ -40,11 +127,61 @@
               </div>
             </a>
           </div>
+          <div class="col-6 col-md-4 col-lg-3">
+            <a class="d-block post" href="#" title="#">
+              <div class="post__thumb">
+                <img class="img-fit" src="imgs/products/product-1.jpg" alt="product">
+              </div>
+              <div class="text-uppercase text-truncate text-center py-2 post__desc">
+                BAO BÌ GHÉP MÀNG OPP
+              </div>
+            </a>
+          </div>
+          <div class="col-6 col-md-4 col-lg-3">
+            <a class="d-block post" href="#" title="#">
+              <div class="post__thumb">
+                <img class="img-fit" src="imgs/products/product-1.jpg" alt="product">
+              </div>
+              <div class="text-uppercase text-truncate text-center py-2 post__desc">
+                BAO BÌ GHÉP MÀNG OPP
+              </div>
+            </a>
+          </div>
+          <div class="col-6 col-md-4 col-lg-3">
+            <a class="d-block post" href="#" title="#">
+              <div class="post__thumb">
+                <img class="img-fit" src="imgs/products/product-1.jpg" alt="product">
+              </div>
+              <div class="text-uppercase text-truncate text-center py-2 post__desc">
+                BAO BÌ GHÉP MÀNG OPP
+              </div>
+            </a>
+          </div>
+          <div class="col-6 col-md-4 col-lg-3">
+            <a class="d-block post" href="#" title="#">
+              <div class="post__thumb">
+                <img class="img-fit" src="imgs/products/product-1.jpg" alt="product">
+              </div>
+              <div class="text-uppercase text-truncate text-center py-2 post__desc">
+                BAO BÌ GHÉP MÀNG OPP
+              </div>
+            </a>
+          </div>
+          <div class="col-6 col-md-4 col-lg-3">
+            <a class="d-block post" href="#" title="#">
+              <div class="post__thumb">
+                <img class="img-fit" src="imgs/products/product-1.jpg" alt="product">
+              </div>
+              <div class="text-uppercase text-truncate text-center py-2 post__desc">
+                BAO BÌ GHÉP MÀNG OPP
+              </div>
+            </a>
+          </div>
         </div>
       </div>
     </section>
 
-    <section id="about" class="py-4">
+    <!-- <section id="about" class="py-4">
       <div class="container">
         <div class="row">
           <div class="col-md-6 why-us">
@@ -88,10 +225,14 @@
             <div class="section-divider text-center mb-3">
               <img class="img-fluid" src="imgs/share/line.png" alt="divider">
             </div>
+            <div class="process__videos">
+              <iframe width="100%" height="315" src="https://www.youtube.com/embed/sgcsFCapMxA" frameborder="0"
+                allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            </div>
           </div>
         </div>
       </div>
-    </section>
+    </section> -->
 
     <section id="customers" class="py-4">
       <div class="container">
@@ -101,20 +242,93 @@
             <div class="section-divider text-center mb-3">
               <img class="img-fluid" src="imgs/share/line.png" alt="divider">
             </div>
+            <div class="slider slider-customer">
+              <figure class="text-center">
+                <img src="imgs/customers/sample_customer.jpg" alt="customer" class="rounded-circle d-inline-block">
+                <figcaption class="px-4 mt-3">
+                  <p>Tôi cảm thấy rất hài lòng với chất lượng dịch vụ sản phẩm của công ty cho chúng tôi trong thời gian qua. Thời gian sản
+                    xuất nhanh đáp ứng được nhu cầu cấp thiết yếu về bao bì, chúng tôi cải tiến liên tục về mọi mặc chất lượng & kiểu
+                    dáng...</p>
+                  <div class="customer__info">
+                    <span class="customer__name d-block font-weight-bold">Ms Nga</span>
+                    <span class="customer__position">Kế toán Kazen</span>
+                  </div>
+                </figcaption>
+              </figure>
+              <figure class="text-center">
+                <img src="imgs/customers/sample_customer.jpg" alt="customer" class="rounded-circle d-inline-block">
+                <figcaption class="px-4 mt-3">
+                  <p>Tôi cảm thấy rất hài lòng với chất lượng dịch vụ sản phẩm của công ty cho chúng tôi trong thời gian qua. Thời gian sản
+                    xuất nhanh đáp ứng được nhu cầu cấp thiết yếu về bao bì, chúng tôi cải tiến liên tục về mọi mặc chất lượng & kiểu
+                    dáng...</p>
+                  <div class="customer__info">
+                    <span class="customer__name d-block font-weight-bold">Ms Ly</span>
+                    <span class="customer__position">Phó giám đốc Tradaco</span>
+                  </div>
+                </figcaption>
+              </figure>
+            </div>
           </div>
           <div class="col-md-6">
             <h2 class="text-success text-center h3">HOTLINE</h2>
             <div class="section-divider text-center mb-3">
               <img class="img-fluid" src="imgs/share/line.png" alt="divider">
             </div>
+            <div class="row">
+              <div class="col-lg-6">
+                <div class="hotline mb-3">
+                  <img class="float-left rounded-circle hotline__img" src="imgs/share/hotline.jpg" alt="hotline">
+                  <div class="hotline__info pt-2">
+                    <img class="float-left" src="imgs/share/iconphone.png" alt="icon">
+                    <div class="hotline__number">
+                      <span class="small">Hotline:</span>
+                      <span class="d-block text-danger font-weight-bold">933-390-368</span>
+                    </div>
+                    <span class="hotline__addr">fset@bamboo36.net</span>
+                  </div>
+                </div>
+              </div>
+              <div class="col-lg-6">
+                <div class="hotline mb-3">
+                  <img class="float-left rounded-circle hotline__img" src="imgs/share/hotline.jpg" alt="hotline">
+                  <div class="hotline__info pt-2">
+                    <img class="float-left" src="imgs/share/iconphone.png" alt="icon">
+                    <div class="hotline__number">
+                      <span class="small">Hotline:</span>
+                      <span class="d-block text-danger font-weight-bold">0373146251</span>
+                    </div>
+                    <span class="hotline__addr">admin@bamboo36.net</span>
+                  </div>
+                </div>
+              </div>
+            </div>
           </div>
         </div>
       </div>
     </section>
 
-    <section id="projects"></section>
+    <section id="projects" class="py-4">
+      <div class="container">
+        <h2 class="text-success text-center h3">DỰ ÁN TIÊU BIỂU</h2>
+        <div class="section-divider text-center mb-3">
+          <img class="img-fluid" src="imgs/share/line.png" alt="divider">
+        </div>
+        <div class="row posts">
+          <div class="col-6 col-md-4 col-lg-3">
+            <a class="d-block post" href="#" title="#">
+              <div class="post__thumb">
+                <img class="img-fit" src="imgs/products/product-1.jpg" alt="product">
+              </div>
+              <div class="text-truncate text-center py-2 post__desc">
+                Bao Jumbo đựng bắp ủ chua
+              </div>
+            </a>
+          </div>
+        </div>
+      </div>
+    </section>
 
-    <section id="partners">
+    <section id="partners" class="py-4 bg-light">
       <div class="container">
         <div class="slider slider-partner">
           <div class="partner">
@@ -180,7 +394,7 @@
             <div class="col-lg-7 footer__list">
               <div class="row">
                 <div class="col-lg-4 footer__links">
-                  <span class="footer-link-title">GIỚI THIỆU</span>
+                  <span class="footer-link-title text-white">GIỚI THIỆU</span>
                   <ul class="mb-3">
                     <li class="my-1">
                       <a href="#">Giới thiệu</a>
@@ -200,7 +414,7 @@
                   </ul>
                 </div>
                 <div class="col-lg-4 footer__links">
-                  <span class="footer-link-title">TIN TỨC</span>
+                  <span class="footer-link-title text-white">TIN TỨC</span>
                   <ul class="mb-3">
                     <li class="my-1">
                       <a href="#">Tin tức ngành</a>
@@ -220,7 +434,7 @@
                   </ul>
                 </div>
                 <div class="col-lg-4 footer__links">
-                  <span class="footer-link-title">CHĂM SÓC KHÁCH HÀNG</span>
+                  <span class="footer-link-title text-white">CHĂM SÓC KHÁCH HÀNG</span>
                   <ul class="mb-3">
                     <li class="my-1">
                       <a href="#">Hỗ trợ sau khi mua hàng</a>
@@ -275,6 +489,33 @@
         prevArrow: '<button class="slick-prev"><i class="fas fa-chevron-left"></i></button>',
         nextArrow: '<button class="slick-next"><i class="fas fa-chevron-right"></i></button>'
       });
+
+      $('.slider-hero').slick({
+        autoplay: true,
+        slidesToShow: 1,
+        dots: true,
+        infinite: true,
+        prevArrow: '<button class="slick-prev"><i class="fas fa-chevron-left"></i></button>',
+        nextArrow: '<button class="slick-next"><i class="fas fa-chevron-right"></i></button>',
+        customPaging: function(slider, i) {
+          return '<span class="slick-dot"></span>';
+        },
+        responsive: [
+          {
+            breakpoint: 768,
+            settings: {
+              dots: false
+            }
+          }
+        ]
+      });
+
+      $('.slider-customer').slick({
+        autoplay: true,
+        infinite: true,
+        prevArrow: '<button class="slick-prev"><i class="fas fa-chevron-left"></i></button>',
+        nextArrow: '<button class="slick-next"><i class="fas fa-chevron-right"></i></button>'
+      })
     });
   </script>
 </body>

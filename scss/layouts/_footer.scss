@@ -1,4 +1,12 @@
 #footer {
+  color: $white;
+  .footer__top {
+    background-color: $oil;
+  }
+  .footer__bottom {
+    background-color: $black;
+    color: $sugar;
+  }
   .footer-link-title {
     position: relative;
     display: inline-block;
@@ -10,7 +18,7 @@
       display: inline-block;
       width: 30px;
       height: 1px;
-      background-color: $black;
+      background-color: $white;
       position: absolute;
       left: 0;
       bottom: 0;

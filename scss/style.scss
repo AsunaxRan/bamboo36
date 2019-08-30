@@ -16,7 +16,9 @@
   "base/image";
 
 @import 
-  "layouts/footer";
+  "layouts/footer",
+  "layouts/section-about",
+  "layouts/section-customers";
 
 @import
   "vendors/animate",
@@ -27,4 +29,7 @@
   "partials/post",
   "partials/awesome-item",
   "partials/partner",
-  "partials/slider";
+  "partials/slider",
+  "partials/hotline",
+  "partials/contact",
+  "partials/search";
