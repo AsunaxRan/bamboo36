@@ -19955,7 +19955,6 @@ h1, h2, h3, h4, h5, h6 {
   position: relative;
   padding-top: 75%;
   overflow: hidden;
-  border: 5px ridge burlywood;
 }
 
 .post__thumb img {
@@ -20073,10 +20072,6 @@ h1, h2, h3, h4, h5, h6 {
   background-color: #28a745;
 }
 
-.slider-hero {
-  border: 5px ridge burlywood;
-}
-
 .slider-hero .slick-arrow {
   background-color: rgba(0, 0, 0, 0.5);
   color: rgba(255, 255, 255, 0.8);
@@ -20158,5 +20153,24 @@ h1, h2, h3, h4, h5, h6 {
 
 .search button:hover {
   color: #000;
+}
+
+#scroll-to-top {
+  display: none;
+  position: fixed;
+  right: 15px;
+  bottom: 40px;
+  width: 45px;
+  height: 45px;
+  line-height: 45px;
+  text-align: center;
+  background-color: rgba(0, 0, 0, 0.5);
+  color: rgba(255, 255, 255, 0.8);
+  border-radius: 2px;
+}
+
+#scroll-to-top:hover {
+  background-color: rgba(0, 0, 0, 0.8);
+  color: #fff;
 }
 /*# sourceMappingURL=style.css.map */

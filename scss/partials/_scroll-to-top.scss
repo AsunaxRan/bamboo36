@@ -1,0 +1,17 @@
+#scroll-to-top {
+  display: none;
+  position: fixed;
+  right: 15px;
+  bottom: 40px;
+  width: 45px;
+  height: 45px;
+  line-height: 45px;
+  text-align: center;
+  background-color: rgba($black, 0.5);
+  color: $sugar;
+  border-radius: 2px;
+  &:hover {
+    background-color: rgba($black, 0.8);
+    color: $white;
+  }
+}
